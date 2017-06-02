@@ -12,22 +12,32 @@ cred_name = join(dirname(abspath(__file__)), 'credentials.txt')
 excel_name = join(dirname(abspath(__file__)), 'sample_data.xlsx')
 
 #If credentials file is empty, enter first time setup procedure
-#if os.path.getsize(cred_name) == 0:
 if os.stat(cred_name).st_size == 0:
-	print("Enter your gmail email address: ")
+	print("Type your first name and then press [Enter]: ")
+	firstname = input()
+	print("Type your last name and then press [Enter]: ")
+	lastname = input()
+	print("Type your gmail address and then press [Enter]: ")
 	email = input()
-	print("Enter the password for your email account: ")
+	print("Type the password for your gmail account and then press [Enter]:")
 	password = input()
 	write_file = open(cred_name, "a")
+	write_file.write(firstname)
+	write_file.write("\n")
+	write_file.write(lastname)
+	write_file.write("\n")
 	write_file.write(email)
 	write_file.write("\n")
 	write_file.write(password)
 	write_file.close()
 	
-#Open the credentials file to get the email and password for logging in
-cred_file = open(cred_name)
-userline = cred_file.readline()
-passline = cred_file.readline()
+#Open the credentials file and obtain credentials
+credentials_file = open(cred_name)
+user_firstname = credentials_file.readline()
+user_lastname = credentials_file.readline()
+user_email = credentials_file.readline()
+user_password = credentials_file.readline()
+credentials_file.close()
 
 #Open the excel file
 book = xlrd.open_workbook(excel_name)
@@ -36,7 +46,7 @@ book = xlrd.open_workbook(excel_name)
 toaddr = "tsevans@vt.edu"
 
 message = MIMEMultipart()
-message['From'] = userline
+message['From'] = user_email
 message['To'] = toaddr
 message['Subject'] = "Subject Line"
 
@@ -45,7 +55,7 @@ message.attach(MIMEText(body, 'plain'))
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login(userline, passline)
+server.login(user_email, user_password)
 text = message.as_string()
-server.sendmail(userline, toaddr, text)
+server.sendmail(user_email, toaddr, text)
 server.quit()
