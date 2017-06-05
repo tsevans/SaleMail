@@ -7,4 +7,4 @@
   * [Mac OS X](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg)
 
 2. Open the terminal, which looks like this: 
-  * ![Terminal Icon](http://media.idownloadblog.com/wp-content/uploads/2015/01/Terminal-icon-Yosemite-220x220.png =110x110)
+  * ![Terminal Icon](http://media.idownloadblog.com/wp-content/uploads/2015/01/Terminal-icon-Yosemite-220x220.png)
