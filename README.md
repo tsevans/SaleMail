@@ -5,12 +5,12 @@
 
 ___Step 1.___ 
 
-[Click here](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg) to download the latest version of Python (version 3.6.1), and then follow the default installation instructions.
+[Click here](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg) to download the latest version of Python (version 3.6.1) and follow the default installation instructions.
 <br></br>
 <br></br>
 ___Step 2.___ 
 
-Once Python is installed, open the terminal, which looks like this: 
+When you have completed the Python installation, open the terminal. The icon looks like this: 
 
 ![Terminal Icon](http://media.idownloadblog.com/wp-content/uploads/2015/01/Terminal-icon-Yosemite-220x220.png)
 <br></br>
