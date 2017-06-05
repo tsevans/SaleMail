@@ -42,7 +42,7 @@ mkdir Programs
 cd Programs
 ```
 ```
-pip install git+https://github.com/tsevans/SaleMail.git
+pip install -e git+https://github.com/tsevans/SaleMail.git#egg=SaleMail
 ```
 
 
