@@ -11,6 +11,7 @@ __Step 1.__
 __Step 2.__ 
 
 Once Python is installed, open the terminal, which looks like this: 
+
 ![Terminal Icon](http://media.idownloadblog.com/wp-content/uploads/2015/01/Terminal-icon-Yosemite-220x220.png)
 
 __Step 3.__ 
