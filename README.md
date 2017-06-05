@@ -10,7 +10,7 @@ ___Step 1.___
 <br></br>
 ___Step 2.___ 
 
-When you have completed the Python installation, open the terminal. The icon looks like this: 
+When you have completed the Python installation, open your computer's terminal. The icon looks like this: 
 
 ![Terminal Icon](http://media.idownloadblog.com/wp-content/uploads/2015/01/Terminal-icon-Yosemite-220x220.png)
 <br></br>
