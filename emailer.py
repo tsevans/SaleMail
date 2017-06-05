@@ -13,23 +13,37 @@ excel_name = join(dirname(abspath(__file__)), 'sample_data.xlsx')
 
 #If credentials file is empty, enter first time setup procedure
 if os.stat(cred_name).st_size == 0:
-	print("Type your first name and then press [Enter]: ")
-	firstname = input()
-	print("Type your last name and then press [Enter]: ")
-	lastname = input()
-	print("Type your gmail address and then press [Enter]: ")
-	email = input()
-	print("Type the password for your gmail account and then press [Enter]:")
-	password = input()
-	write_file = open(cred_name, "a")
-	write_file.write(firstname)
-	write_file.write("\n")
-	write_file.write(lastname)
-	write_file.write("\n")
-	write_file.write(email)
-	write_file.write("\n")
-	write_file.write(password)
-	write_file.close()
+	setup_complete = False
+	while not setup_complete:
+		print("Type your first name and then press [Enter]: ")
+		firstname = input()
+		print("Type your last name and then press [Enter]: ")
+		lastname = input()
+		print("Type your gmail address and then press [Enter]: ")
+		email = input()
+		print("Type the password for your gmail account and then press [Enter]:")
+		password = input()
+		write_file = open(cred_name, "a")
+		print("You have entered the following...\nFirst Name: " + firstname + "\nLast Name: " + 
+			lastname + "\nEmail: " + email + "\nPassword: " + password + "\nIs this correct? Type Y for yes or N for no and then press [Enter]")
+		input_valid = False
+		while not input_valid:
+			choice = input()
+			if choice == "Y":
+				setup_complete = True
+				break
+			elif choice == "N":
+				break
+			else:
+				print("Choice not recognized! Make sure to use uppercase letters!")
+		write_file.write(firstname)
+		write_file.write("\n")
+		write_file.write(lastname)
+		write_file.write("\n")
+		write_file.write(email)
+		write_file.write("\n")
+		write_file.write(password)
+		write_file.close()
 	
 #Open the credentials file and obtain credentials
 credentials_file = open(cred_name)
