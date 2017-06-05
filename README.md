@@ -3,3 +3,4 @@
 
 
 ## How to Download
+Click [here](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg) to download python version 3.6.1 for Mac OS X and follow installation instructions.
