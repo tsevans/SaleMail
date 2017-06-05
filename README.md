@@ -4,11 +4,11 @@
 
 ## How to Download - Mac OS X
 
-__Step 1.__ 
+_Step 1._ 
 
 [Click here](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg) to download the latest version of Python (version 3.6.1), and then follow the default installation instructions.
 <br></br>
-__Step 2.__ 
+___Step 2.___ 
 
 Once Python is installed, open the terminal, which looks like this: 
 
