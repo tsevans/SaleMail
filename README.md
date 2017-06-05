@@ -1,7 +1,15 @@
 # SaleMail
 #### Application that allows University of Texas students in the AroundCampus Group program to quickly send follow-up sales emails
 
-## How to Download - Mac OS X
+Table of Contents
+=================
+
+  * How to Download
+    * [Mac OS X Instructions](#mac-os-x-download-instructions)
+    * [Windows Instructions](#windows-download-instructions)
+  * [How to Use SaleMail](#how-to-use-salemail)
+
+## Mac OS X Download Instructions
 
 ___Step 1.___ 
 
@@ -36,3 +44,13 @@ cd Programs
 ```
 pip install git+https://github.com/tsevans/SaleMail.git
 ```
+
+
+## Windows Download Instructions
+
+___Step 1.___ 
+
+
+## How to Use SaleMail
+
+___Step 1.___ 
