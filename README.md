@@ -23,3 +23,10 @@ pip install -U pip setuptools
 Press the Enter key to run the command, which will install/update the utility that will be used to install the SaleMail application.
 <br></br>
 ___Step 4.___
+
+When the installation from step 3 has finished, type the following series of commands into the terminal, following each command by a press of the Enter key:
+```
+mkdir Programs
+cd Programs
+pip install git+https://github.com/tsevans/SaleMail.git
+```
