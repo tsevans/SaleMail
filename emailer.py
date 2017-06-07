@@ -23,7 +23,7 @@ if os.stat(cred_name).st_size == 0:
 		email = input()
 		print("Type the password for your gmail account and then press [Enter]:")
 		password = input()
-		write_file = open(cred_name, "a")
+		write_file = open(cred_name, "w")
 		print("You have entered the following...\nFirst Name: " + firstname + "\nLast Name: " + 
 			lastname + "\nEmail: " + email + "\nPassword: " + password + "\nIs this correct? Type Y for yes or N for no and then press [Enter]")
 		input_valid = False
@@ -54,7 +54,7 @@ user_password = credentials_file.readline()
 credentials_file.close()
 
 #Open the excel file
-book = xlrd.open_workbook(excel_name)
+#book = xlrd.open_workbook(excel_name)
 
 #ADDRESSES TO SEND TO, LOOP THIS WITH ENTRIES FROM EXCEL FILE
 toaddr = "tsevans@vt.edu"
