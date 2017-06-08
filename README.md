@@ -4,7 +4,7 @@
 
   * [What is SaleMail?](#what-is-salemail)
   * How to Download
-    * [Linux/Mac OS X Instructions](#linux/mac-os-x-download-instructions)
+    * [Linux / Mac OS X Instructions](#linux-/-mac-os-x-download-instructions)
   * [How to Use SaleMail](#how-to-use-salemail)
 <br></br>
 
