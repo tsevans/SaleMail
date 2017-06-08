@@ -54,26 +54,16 @@ ___Step 6.___
 
 Type the following series of commands into the terminal, following each command by a press of the Enter key:
 ```
-mkdir Programs
+mkdir Programs ``` This command creates a folder called "Programs" on your computer.
 ```
+cd Programs ``` This command moves you into the newly created "Programs" folder in the terminal.
 ```
-cd Programs
+mkdir SaleMail ``` This command creates a folder called "SaleMail" in the "Programs" folder.
 ```
-These two commands will create a folder called "Programs" on your computer and move you into that folder.
-
+cd SaleMail ``` This command moves you into the newly created "SaleMail" folder in the terminal.
 ```
-mkdir SaleMail
-```
-```
-cd SaleMail
-```
-These two commands will create a folder called "SaleMail" on your computer and move you into that folder.
-
-```
-mv ~/Downloads/SaleMail-master ./
-```
-This command moves all of the files downloaded in Step 5 into the "SaleMail" folder that was just created.
-
+mv ~/Downloads/SaleMail-master ./ ``` This command moves all of the files downloaded in Step 5 into the "SaleMail" folder that was just created.
+<br></br>
 
 ___Step 7.___
 
