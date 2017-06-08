@@ -4,11 +4,19 @@
 Table of Contents
 =================
 
+  * [What is SaleMail?](#what-is-salemail)
   * How to Download
-    * [Mac OS X Instructions](#mac-os-x-download-instructions)
+    * [Linux/Mac OS X Instructions](#linux/mac-os-x-download-instructions)
   * [How to Use SaleMail](#how-to-use-salemail)
 
-## Mac OS X Download Instructions
+## What is SaleMail?
+
+SaleMail is a python tool that allows University of Texas students in the AroundCampus Group sales program to automate the process of sending follow-up emails to the company representatives they spoke to during the work day. The motivation for this project came from a discussion with my roommate, in which he told me that he and his associates must spend up to an hour or more each day after work sending individual follow-up emails to companies they pitched to that day. Often times, sales reps finish their day with a collection of business cards, scrap paper, and lists of contact info which they must organize before translating to individual emails. This process is not only tedious and time consuming, but also prone to errors in the case that they might accidentally forget to personalize all required fields in the email template for each unique customer.
+
+By using SaleMail, sales reps will be able to make changes to their email template when needed, store and organize client info into an excel workbook, and send all emails for the day with a single command rather than spending time copying/pasting through thier normal email portal. Additionally, SaleMail provides basic experience using a CLI (command line interface) and understanding the power of python scripting, which are both useful computer skills.
+
+
+## Linux/Mac OS X Download Instructions
 
 ___Step 1.___ 
 
