@@ -6,7 +6,6 @@ Table of Contents
 
   * How to Download
     * [Mac OS X Instructions](#mac-os-x-download-instructions)
-    * [Windows Instructions](#windows-download-instructions)
   * [How to Use SaleMail](#how-to-use-salemail)
 
 ## Mac OS X Download Instructions
@@ -34,7 +33,20 @@ Press the Enter key to run the command, which will install/update the utility th
 
 ___Step 4.___
 
-When the installation from step 3 has finished, type the following series of commands into the terminal, following each command by a press of the Enter key:
+Use the pip utility to install the xlrd library, which is what will allow the SaleMail application to read the excel file containing the information of your clients. To do this, type the following command into the terminal and then press the Enter key:
+```
+pip install xlrd
+```
+<br></br>
+
+___Step 5.___
+
+[Click here](https://github.com/tsevans/SaleMail/archive/master.zip) to download this project. It will be downloaded as a .zip file called "SaleMail-master".
+<br></br>
+
+___Step 6.___
+
+Type the following series of commands into the terminal, following each command by a press of the Enter key:
 ```
 mkdir Programs
 ```
@@ -42,14 +54,25 @@ mkdir Programs
 cd Programs
 ```
 ```
-pip install -e git+https://github.com/tsevans/SaleMail.git#egg=SaleMail
+mkdir SaleMail
 ```
+```
+cd SaleMail
+```
+```
+mv ~/Downloads/SaleMail-master ./
+```
+<br></br>
 
+___Step 7.___
 
-## Windows Download Instructions
+At this point, you should have all of the tools and files necessary to use SaleMail. If you would like to check that you have all the proper files, type the following command into the terminal and press the Enter key:
+```
+ls -l
+```
+You should see a listing of files like so:
 
-___Step 1.___ 
-
+<br></br>
 
 ## How to Use SaleMail
 
