@@ -88,6 +88,6 @@ You should see a listing of files like so:
 
 ## How to Use SaleMail
 ### First Time Setup
-The first time you run SaleMail, you will go through a setup procedure that will initialize all of your personal information. This information will be used to access your email and better customize your messages. Make sure to pay attention while going through the setup procedure so the correct information is entered, as it may be difficult to change later on.
+The first time you run SaleMail, you will go through a setup procedure that will initialize all of your personal information. This information will be used to send messages from your email and better personalize your messages. Make sure to pay attention while going through the setup procedure so that the correct information is entered, as it may be difficult to change later on.
 
 ___Step 1.___ 
