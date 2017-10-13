@@ -20,7 +20,7 @@
 
 ___Step 1.___ 
 
-[Click here](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg) to download the latest version of Python (version 3.6.1) and follow the default installation instructions.
+[Click here](https://www.python.org/ftp/python/3.6.1/python-3.6.1-macosx10.6.pkg) to download Python (version 3.6.1) and follow the default installation instructions.
 <br></br>
 
 ___Step 2.___ 
